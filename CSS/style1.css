@@ -1,0 +1,82 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+}
+
+.header{
+   height: 70px;
+   max-width: 900px;
+   margin-left: 45px;
+   margin: 0;
+   padding: 1px 2%;
+   
+}
+.banner1{
+    height: 70px;
+    width: 85%;
+    
+    background-position: center;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    float: right;
+    height: 100px;
+    font-size:20px ;
+    margin-top: 20px;
+    margin-right: 5px;
+    
+}
+.menu a{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+.menu a:hover{
+    color: gray;
+   
+}
+.container{
+    background-image: url(../imagens/quem_somos.png);
+    margin-left: 2px;
+    height: 5.5rem;
+    width: 88%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.texto{
+    height: 20rem;
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 5px;
+
+}
+.texto1 {
+    font-family:sans-serif;
+    /*define a fonte de um texto*/
+    font-size: 25px;
+    /*define o tamanho das letras no texto*/
+    text-align: justify;
+    /*define o texto justificado na celula*/
+
+    
+}
+.texto2{
+    font-family: sans-serif;
+    /*define a fonte de um texto*/
+    font-size: 25px;
+    /*define o tamanho das letras no texto*/
+    text-align: justify;
+    /*define o texto justificado na celula*/
+}
+.rodape {
+   height: 20px;
+   width: 100%;
+   text-align: center;
+   /*alinha o texto no centro da pagina*/
+ 
+}
